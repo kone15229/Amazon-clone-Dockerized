@@ -5,7 +5,7 @@ pipeline {
         timeout(time: 10, unit: 'MINUTES')
      }
     environment {
-    DOCKERHUB_CREDENTIALS = credentials('lass-token')
+    DOCKERHUB_CREDENTIALS = credentials('lass-token-dockerhub')
     APP_NAME = "lacina15/lass-amazon-app"
     }
     stages { 
